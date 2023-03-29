@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- *_strcat - Concatenates two strings
+ *_strncat - Concatenates two strings using n bytes from src
  *@src: The source
  *@dest: The destination
+ *@n: number of byytes to copy from src
  *Return: Dest
- * 
+ *
 */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int j;
@@ -17,7 +18,7 @@ while (dest[i] != '\0')
 i++;
 }
 j = 0;
-while (src[j] != '\0')
+while (j < n && src[j] != '\0')
 {
 dest[i] = src[j];
 i++;
