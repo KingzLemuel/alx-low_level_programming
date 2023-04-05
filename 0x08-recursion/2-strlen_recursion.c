@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _strlen - prints a string
- * @s: the whose lenght is returned
+ * _strlen_recursion - Retuns the the lenght of a string
+ * @s: the string whose lenght is returned
  * Return: strlen
  *
 */
