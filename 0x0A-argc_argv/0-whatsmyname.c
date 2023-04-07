@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * whatsmyname - A program that prints its name
- * @c: stores number of input
- * @v: stores the strings
+ * @argc: stores number of input
+ * @argv: stores the strings
  * Return: Always 0 (Success)
  * 
 */
