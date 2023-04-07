@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * whatsmyname - A program that prints its name
+ * main - A program that prints its name
  * @argc: stores number of input
  * @argv: stores the strings
  * Return: Always 0 (Success)
- * 
+ *
 */
 int main(int argc, char *argv[])
 {
