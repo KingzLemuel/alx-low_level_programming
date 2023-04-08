@@ -1,0 +1,1 @@
+This is a static library containing all my functions
