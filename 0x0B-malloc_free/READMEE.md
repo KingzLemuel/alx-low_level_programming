@@ -1,0 +1,1 @@
+I have begun to learn not to prodigal with the computer memory
