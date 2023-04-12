@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	if (strout == NULL)
 		return (NULL);
 
-	for (j= 0; str[j]; j++)
+	for (j = 0; str[j]; j++)
 		strout[j] = str[j];
 
 	return (strout);
