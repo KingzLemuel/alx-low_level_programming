@@ -1,5 +1,5 @@
 #include "dog.h"
-
+#include <stdio.h>
 /**
  * print_dog - A struct function
 
@@ -17,7 +17,6 @@ void print_dog(struct dog *d)
 	else
 		printf("Name: %s\n", d->name);
 
-	/* No if statement for age because int dont have a null */
 	printf("Age: %f\n", d->age);
 
 	if (d->owner == 0)
