@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * print_dog - A struct function
-
  * @d: pointer to strut_dog
  * Return: struct dog
 */
