@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 /**
  * _strlen - checks lenght of character string
  * @str: the string
