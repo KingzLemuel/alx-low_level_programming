@@ -1,0 +1,1 @@
+This project shows how to apply nuumeroous and varying argument to a function
