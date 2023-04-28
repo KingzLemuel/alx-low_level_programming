@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-*add_node - addds a new node at end of list_t
+*add_node_end - addds a new node at end of list_t
 *@head: pointer to node
 *@str: string for the new node
 *Return: address of new element or NULL at success or failure resp.
@@ -31,6 +31,6 @@ list_t *add_node_end(list_t **head, const char *str)
 		temp = temp->next;
 
 	temp->next = add;
-	return (add);	
+	return (add);
 }
 
