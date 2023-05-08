@@ -2,10 +2,9 @@
 
 /**
  *_strcat - Concatenates two strings
- *@src: The source
  *@dest: The destination
+ *@src:The source
  *Return: Dest
- * 
 */
 char *_strcat(char *dest, char *src)
 {
